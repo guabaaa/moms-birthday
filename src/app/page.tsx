@@ -198,21 +198,6 @@ export default function Home() {
           viewport={{ once: true }}
           className="max-w-md w-full mx-auto space-y-16 text-center"
         >
-          <div className="space-y-4">
-            <h2 className="text-2xl font-bold text-amber-600/80 mb-8 font-danjo-bold">
-              CELEBRATION
-            </h2>
-            <p className="text-neutral-400 leading-loose">
-              소중한 분들을 모시고
-              <br />
-              따뜻한 식사를 나누고 싶습니다.
-              <br />
-              부디 참석하시어 축하해 주시면
-              <br />
-              더없는 기쁨이 되겠습니다.
-            </p>
-          </div>
-
           <div className="border-t border-neutral-800 pt-8 space-y-2">
             <p className="text-amber-600/60 text-xs tracking-widest uppercase mb-4">
               Date & Time

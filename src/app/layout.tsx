@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import BackgroundEffect from "../components/BackgroundEffect";
 import "@/app/globals.css";
@@ -15,7 +15,14 @@ const changwonDangam = localFont({
   variable: "--font-changwon-dangam",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://moms-birthday.vercel.app"), // 기본 도메인 설정 (필요시 수정)
   title: "사랑하는 엄마의 60번째 생신",
   description: "엄마의 환갑을 함께 축하해주세요",
   openGraph: {
@@ -26,7 +33,6 @@ export const metadata: Metadata = {
   icons: {
     icon: "/image/petal.svg",
   },
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
 
 export default function RootLayout({
