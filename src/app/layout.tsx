@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import FlowerParticles from "../components/FlowerParticles";
+import BackgroundEffect from "../components/BackgroundEffect";
 import "@/app/globals.css";
 
 const danjoBold = localFont({
@@ -16,8 +16,16 @@ const changwonDangam = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "환갑잔치 초대장",
-  description: "엄마 환갑잔치에 초대합니다",
+  title: "사랑하는 엄마의 60번째 생신",
+  description: "엄마의 환갑을 함께 축하해주세요",
+  openGraph: {
+    title: "사랑하는 엄마의 60번째 생신",
+    description: "엄마의 환갑을 함께 축하해주세요",
+    images: ["/image/mainPhoto.jpeg"],
+  },
+  icons: {
+    icon: "/image/petal.svg",
+  },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
 
@@ -28,8 +36,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={`${changwonDangam.variable} ${danjoBold.variable}`}>
-        <FlowerParticles />
+      <body
+        className={`${changwonDangam.variable} ${danjoBold.variable} bg-[#0E0E0E]`}
+      >
+        <BackgroundEffect />
         {children}
       </body>
     </html>
