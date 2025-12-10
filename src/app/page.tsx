@@ -165,7 +165,7 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-4xl md:text-6xl font-bold text-neutral-100 mb-6 font-danjo-bold tracking-widest"
           >
-            AEKYOM's DAY
+            AEKYOM&apos;s DAY
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
