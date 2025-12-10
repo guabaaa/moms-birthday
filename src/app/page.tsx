@@ -39,19 +39,17 @@ const thirtiesImages = [
 
 // KakaoTalk Photos (Remaining for 40s and 50s)
 const kakaoPhotosBatch1 = [
-  "/image/KakaoTalk_Photo_2025-12-09-22-54-39 001.jpeg",
-  "/image/KakaoTalk_Photo_2025-12-09-22-54-39 002.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 003.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 004.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 005.jpeg",
+  "/image/KakaoTalk_Photo_2025-12-09-22-54-39 001.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 006.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 007.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 008.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 009.jpeg",
+  "/image/KakaoTalk_Photo_2025-12-09-22-54-39 002.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 010.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 011.jpeg",
-  "/image/KakaoTalk_Photo_2025-12-09-22-54-40 012.jpeg",
-  "/image/KakaoTalk_Photo_2025-12-09-22-54-40 013.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 014.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-41 015.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-41 016.jpeg",
