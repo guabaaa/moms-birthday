@@ -1,5 +1,6 @@
 'use client';
 
+import 'leaflet/dist/leaflet.css';
 import { useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import L from 'leaflet';
@@ -35,9 +36,6 @@ export default function Map({ address, placeName, lat, lng }: MapProps) {
   const defaultLng = lng || 126.7226;
 
   useEffect(() => {
-    // Leaflet CSS 동적 로드
-    import('leaflet/dist/leaflet.css');
-    
     // 마커 아이콘 설정 (기본 아이콘 경로 문제 해결)
     if (typeof window !== 'undefined') {
       const icon = L.icon({
