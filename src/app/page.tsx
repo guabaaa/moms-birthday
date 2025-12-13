@@ -31,15 +31,17 @@ const lateTwentiesImages = [
 const thirtiesImages = [
   "/image/30-1.jpeg",
   "/image/30-2.jpeg",
+  "/image/30-9.jpeg",
   "/image/30-3.jpeg",
+  "/image/30-7.jpeg",
   "/image/30-4.jpeg",
+  "/image/30-8.jpeg",
   "/image/30-5.jpeg",
   "/image/30-6.jpeg",
 ];
 
 // KakaoTalk Photos (Remaining for 40s and 50s)
 const kakaoPhotosBatch1 = [
-  "/image/KakaoTalk_Photo_2025-12-09-22-54-40 003.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 004.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-40 005.jpeg",
   "/image/KakaoTalk_Photo_2025-12-09-22-54-39 001.jpeg",
